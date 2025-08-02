@@ -1,0 +1,27 @@
+{
+  "database": {
+    "database_accessible": false,
+    "error": "(sqlite3.OperationalError) no such table: feedback_sessions\n[SQL: SELECT feedback_sessions.id AS feedback_sessions_id, feedback_sessions.user_id AS feedback_sessions_user_id, feedback_sessions.skill_type AS feedback_sessions_skill_type, feedback_sessions.session_duration AS feedback_sessions_session_duration, feedback_sessions.feedback_data AS feedback_sessions_feedback_data, feedback_sessions.improvement_score AS feedback_sessions_improvement_score, feedback_sessions.analysis_timestamp AS feedback_sessions_analysis_timestamp, feedback_sessions.session_start AS feedback_sessions_session_start, feedback_sessions.session_end AS feedback_sessions_session_end, feedback_sessions.is_active AS feedback_sessions_is_active \nFROM feedback_sessions]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+  },
+  "analysis_engine": {
+    "engine_operational": true,
+    "processing_time_seconds": 0.62,
+    "meets_30s_target": true,
+    "feedback_generated": true,
+    "suggestions_count": 0,
+    "metrics_count": 10
+  },
+  "api": {
+    "api_accessible": true,
+    "endpoint_count": 8,
+    "router_configured": true
+  },
+  "performance": {
+    "average_processing_time": 1.36,
+    "max_processing_time": 1.98,
+    "meets_performance_target": true,
+    "consistency_good": true
+  },
+  "validation_timestamp": "2025-08-02T05:22:42.065450",
+  "overall_status": "FAILED"
+}

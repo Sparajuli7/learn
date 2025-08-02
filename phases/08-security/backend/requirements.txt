@@ -1,0 +1,44 @@
+# Security, Compliance, and Final Integration Requirements
+
+# Core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Database
+sqlite3  # Built into Python
+sqlalchemy==2.0.23
+
+# Security and encryption
+cryptography==41.0.8
+bcrypt==4.1.2
+PyJWT==2.8.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Multi-factor authentication
+pyotp==2.9.0
+qrcode==7.4.2
+
+# Compliance and privacy
+anonymization==0.1.0
+gdpr-helpers==1.0.0
+
+# Security monitoring
+watchdog==3.0.0
+psutil==5.9.6
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+
+# Production deployment
+gunicorn==21.2.0
+docker==6.1.3
+
+# Additional security
+hashlib  # Built into Python
+secrets  # Built into Python
+ssl  # Built into Python
